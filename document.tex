@@ -1,50 +1,169 @@
-% Rapport de recherche David VELTEN
+% MEMOIRE DE RECHERCHE DAVID VELTEN
+% TUTEUR DE MEMOIRE : GEAOFFREY PELISSIER
 %
-% Tuteur de stage : Geoffrey Pélissier
-% Année : 2017-2018
-% IDRAC - Campus de Montpellier
+% IDRAC Business School 4ème Année
+% Année 2017 - 2018
+% Lancement du mémoire : Janvier 2018
+% Date de fin du mémoire : Juillet 2018
 %
 % Serveur GitHub : https://github.com/Uhaina/rapportIDRAC.git
+% Utilisation de la classe BREDELE, GPL V3.0
+% https://framagit.org/Framatophe/Bredele.git
 
-% Définition du type de document
-\documentclass[12pt]{report}
 
-% Importation des packages 
-% Règles typo françaises
-\usepackage[french]{babel}
-% Utilisation des accents et d'un encodage standard (UTF8)
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-% Import de la police
-\usepackage[scaled]{helvet}
-\renewcommand*\familydefault{\sfdefault}
-% Dimensions de la page
-\usepackage{a4wide}
-% Creation des liens hypertextes dans le document
-\usepackage[colorlinks=true]{hyperref}
-% Utilisation d'images
-\usepackage{graphicx}
-% Utilisation de tableaux evolues
-\usepackage{tabularx}
-% Commandes pour les URL et email
-\usepackage{url}
-% Pour faire des exemples d'utilisation de commandes LaTeX
-\usepackage{example}
-% Gestion avancee de la bibliographie
-\usepackage[]{natbib}
-% Les couleurs
-\usepackage{color}
+\documentclass{bredele} % Utliisation de la classe BREDELE
+
+% Elements de la page de garde
+\title{Le Bitcoin, la révolution digitale de l'économie}
+\lesoustitre{Le sous titre est facultatif}
+\discipline{Marketing Digital}
+\dirdethese{Geoffrey PELISSIER}
+\titredudirdethese{Consultant \& Formateur - Marketing Digital}
+%\jury{
+%\begin{description}
+%    \item[Examinateur~:] Nicolas \textsc{Poirot}, Prof. des Universit\'{e}s, Nonamecity~I
+%   \item[Rapporteur externe~:] Etienne \textsc{Burger}, Charg\'{e} de Recherche au TRUC
+%    \item[Rapporteur externe~:] Eric \textsc{Meyer}, Prof. des Universit\'{e}s, Nonamecity~X
+%    \item[Rapporteur interne~:] Bernard \textsc{Klein}, Prof. des Universit\'{e}s, Nonamecity~II
+%\end{description}
+%}
+\author{David VELTEN}
+\date{12 Juillet 2018}
+\nomdeuniversite{IDRAC Business School}
+\logouniversite{logoIdrac}
+\scalelogouniversite{0.2}
+\logolabo{logoDell}
+\scalelogolabo{0.2}
+\unite{Management de la stratégie commerciale}
+%\ecoledoc{IDRAC - Montpellier}
+
 
 % DEBUT DU DOCUMENT
 \begin{document}
+    \maketitle
 
-% Information du document 
-\title{Le Bitcoin, la révolution digitale de l'économie}
-\author{David VELTEN}
-\date{Juillet 2018}
+    \clearemptydoublepage
+    \chapter{Remerciements}
+    \thispagestyle{empty}
+    Je tiens à remercier Machin Bidule pour ses conseils avisés \\
+    J'adresse également toute ma reconnaissance à Madame Truc Machin ainsi qu'à ses collègues pour m'avoir accepté dans tutu \\
+    Blabla
 
-% Implémentation de la page de titre
-\maketitle
+    \clearemptydoublepage
+    \frontmatter
 
-% FIN DU DOCUMENT
+    \clearemptydoublepage
+    \chapter{Introduction}
+    \addcontentsline{toc}{chapter}{Introduction}
+    \chaptermark{Introduction}
+
+    Cela fait quelques temps qu'on commence à parler d'une nouvelle monnaie, le Bitcoin. Puis qu'on évoque une espèce de technologie mystique, la blockchain, qui permettrait de faire beaucoup de choses. Je suis sûr que vous avez déjà dû lire des articles de presse sur le sujet et...
+    ... comme moi, vous n'avez rien compris.
+
+    \boitesimple{De quoi parle-t-on au juste ? Qu'est-ce que le Bitcoin ? Est-ce que c'est vrai qu'on peut acheter des objets avec ? Comment ça marche ? Où sont les pièces ?! Et quel est le rapport avec cette "blockchain" ?}
+
+    J'ai commencé à me poser beaucoup de questions et, frustré de ne rien comprendre, je me suis documenté petit à petit. J'ai découvert un univers aussi fascinant que complexe. Tellement complexe qu'à part quelques initiés, peu de gens comprennent vraiment comment ça marche. Je me suis donc dit qu'un cours pour présenter le principe du Bitcoin et de la blockchain serait sûrement utile pour de nombreuses personnes. Dans ce cours, nous découvrirons ensemble comment le Bitcoin et la blockchain fonctionnent (au moins les bases !) puis nous verrons comment se procurer des Bitcoin et en utiliser pour acheter des objets.
+
+    Suivez le guide !
+
+    \textbf{Une box : }
+
+    \boitemagique{A. EINSTEIN}{
+    Si vous jugez un poisson sur ses capacités à grimper à un arbre, il passera sa vie à croire qu’il est stupide.
+    }
+
+    \clearemptydoublepage
+    \shorttableofcontents{Sommaire}{0}
+
+    \clearemptydoublepage
+    \mainmatter % Ne pas oublier, avec \frontmatter et \backmatter
+
+    \clearemptydoublepage
+    \part[Analyse stratégique de l'entreprise]{Analyse stratégique de l'entreprise}
+
+    \part[L'histoire de la monnaie]{L'histoire de la monnaie}
+
+    %\clearemptydoublepage
+    \chapter[Avant la monnaie]{Avant la monnaie, le troc}
+
+    Lorem ipsum
+
+    \section{Première section du chapitre}
+
+    \subsection{Première sous-section}
+
+    Lorem ipsum
+
+    \begin{quote}
+    Je crois à la chance et je m'apperçois que plus je travaille, plus j'en ai.
+    \end{quote}
+
+    Lorem ipsum
+
+    \subsection{Deuxième sous-section}
+
+    Lorem ipsum
+
+    \clearemptydoublepage
+
+    \chapter[Les monnaies primitives]{Les monnaies primitives}
+
+    Lorem ipsum
+
+    \section{Première section du chapitre}
+
+    \subsection{Première sous-section}
+
+    Lorem ipsum
+
+    \begin{quote}
+        Je crois à la chance et je m'apperçois que plus je travaille, plus j'en ai.
+    \end{quote}
+
+    Lorem ipsum
+
+    \subsection{Deuxième sous-section}
+
+    Lorem ipsum
+
+    \part[L'histoire du digital et des crypyo-anarchiste]{L'histoire des crypto-anarchistes}
+
+    \part[Les cypto-monnaie \& le Bitcoin]{Introduction au Bitcoin}
+
+    \part[Le fonctionnement du Bitcoin]{Le fonctionnement du Bitcoin}
+    \chapter[Fonctionnement]{Fonctionnement}
+    Toto
+    \chapter[Le réseau des mineurs]{Le réseau des mineurs}
+    Tutu
+    \chapter[Le blockchain]{La blockchain}
+    Titi
+    \chapter[Le hash]{Le hash}
+    Tata
+
+    \part[L'utilisation du Bitcoin]{L'utilisation du Bitcoin}
+    \chapter[Le paiement en Bitcoin]{Le paiement en Bitcoin}
+    Toto
+    \chapter[Les enjeux du Bitcoin]{Les enjeux du Bitcoin}
+    Tutu
+    \chapter[Les Altcoins]{Les Altcoins}
+
+    \part[Le Bictoin, une bulle ?]{Le Bitcoin, une bulle ?}
+
+
+    \clearemptydoublepage
+    \backmatter
+
+    \clearemptydoublepage
+    \chapter*{Bibliographie}
+    \addcontentsline{toc}{chapter}{Bibliographie}
+
+
+    \nocite{*} % Pour citer la totalité des références contenues dans le fichier bibtex.
+    \printbibliography[heading=primary,keyword=primary]
+    \newpage
+    \nocite{*}
+    \printbibliography[heading=secondary,keyword=secondary]
+
+    \newpage
+    \clearemptydoublepage
 \end{document}
