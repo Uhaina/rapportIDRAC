@@ -322,9 +322,9 @@
 	%\begin{footnotesize}
 	%	\@jury
 	%\end{footnotesize}
-	\begin{flushright}
-		\textbf{Date de soutenance :} \@date
-	\end{flushright}
+	%\begin{flushright}
+	%	\textbf{Date de soutenance :} \@date
+	%\end{flushright}
 }
 };
 \end{tikzpicture}

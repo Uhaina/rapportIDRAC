@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.20)  12 FEB 2018 03:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.20)  12 FEB 2018 03:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1460,13 +1460,13 @@ Package biblatex Info: ... file 'document.bbl' not found.
 No file document.bbl.
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
-<logoIdrac.png, id=110, 554.07pt x 114.4275pt>
+<logoIdrac.png, id=103, 554.07pt x 114.4275pt>
 File: logoIdrac.png Graphic file (type png)
  <use logoIdrac.png>
 Package pdftex.def Info: logoIdrac.png used on input line 43.
 (pdftex.def)             Requested size: 110.81203pt x 22.88509pt.
 
-<logoDell.png, id=112, 501.875pt x 89.33376pt>
+<logoDell.png, id=105, 501.875pt x 89.33376pt>
 File: logoDell.png Graphic file (type png)
  <use logoDell.png>
 Package pdftex.def Info: logoDell.png used on input line 43.
@@ -1476,8 +1476,11 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 43.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
 
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 43.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1504,25 +1507,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 43.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 43.
-
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 43.
-
-[1
+ [1
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logoI
 drac.png> <./logoDell.png>] [2
 
-]
-Chapitre 1.
-[3
+] [3
 
 ] [4
 
 ] [1
-
 
 ] [2
 
@@ -1539,7 +1534,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 ...ise]{Analyse stratégique de l'entreprise}
+l.78 ...ise]{Analyse stratégique de l'entreprise}
                                                    [1
 
 
@@ -1548,28 +1543,28 @@ l.79 ...ise]{Analyse stratégique de l'entreprise}
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 ...ise]{Analyse stratégique de l'entreprise}
+l.78 ...ise]{Analyse stratégique de l'entreprise}
                                                    [2]pdfTeX warning (ext4): de
 stination with the same identifier (name{page.3}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.81 ...e de la monnaie]{L'histoire de la monnaie}
+l.80 ...e de la monnaie]{L'histoire de la monnaie}
                                                    [3
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 ...e de la monnaie]{L'histoire de la monnaie}
+l.80 ...e de la monnaie]{L'histoire de la monnaie}
                                                    [4]
-Chapitre 2.
+Chapitre 1.
 [5
 
 ] [6
 
 ]
-Chapitre 3.
+Chapitre 2.
 [7] [8
 
 ] [9] [10] [11
@@ -1577,43 +1572,43 @@ Chapitre 3.
 ] [12] [13
 
 ] [14]
-Chapitre 4.
+Chapitre 3.
 [15
 
 ] [16
 
 ]
-Chapitre 5.
+Chapitre 4.
 [17] [18
 
 ]
-Chapitre 6.
+Chapitre 5.
 [19] [20
 
 ]
-Chapitre 7.
+Chapitre 6.
 [21] [22
 
 ] [23] [24]
-Chapitre 8.
+Chapitre 7.
 [25
 
 ] [26
 
 ]
-Chapitre 9.
+Chapitre 8.
 [27] [28
 
 ]
-Chapitre 10.
+Chapitre 9.
 [29] [30
 
 ] [31] [32]
 
-Package biblatex Warning: Keyword 'primary' not found on input line 157.
+Package biblatex Warning: Keyword 'primary' not found on input line 156.
 
 
-LaTeX Warning: Empty bibliography on input line 157.
+LaTeX Warning: Empty bibliography on input line 156.
 
 [33
 
@@ -1622,21 +1617,21 @@ LaTeX Warning: Empty bibliography on input line 157.
 
 ]
 
-Package biblatex Warning: Keyword 'secondary' not found on input line 160.
+Package biblatex Warning: Keyword 'secondary' not found on input line 159.
 
 
-LaTeX Warning: Empty bibliography on input line 160.
+LaTeX Warning: Empty bibliography on input line 159.
 
 [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 0C6602722B07C1F14B00BC9DC7F3134C;1668.
+(rerunfilecheck)             Checksum: E08454A4BBF7573949C4208369331C2D;1569.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1652,30 +1647,31 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 25030 strings out of 492995
- 458700 string characters out of 6132703
- 896400 words of memory out of 5000000
- 28094 multiletter control sequences out of 15000+600000
- 68003 words of font info for 46 fonts, out of 8000000 for 9000
+ 25028 strings out of 492995
+ 458679 string characters out of 6132703
+ 896320 words of memory out of 5000000
+ 28092 multiletter control sequences out of 15000+600000
+ 65011 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,928b,2038s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on document.pdf (42 pages, 263731 bytes).
+ 62i,11n,56p,928b,2036s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on document.pdf (42 pages, 223975 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
