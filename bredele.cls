@@ -282,7 +282,7 @@
 	\node at (current page.center)
 {\parbox{13cm}{
 	\begin{center}
-		\sffamily\Large Mémoire de recherche - 4ème Année \\ \@nomdeuniversite
+		\sffamily\Large Rapport de recherche - 4ème Année \\ \@nomdeuniversite
 	\end{center}
 \begin{center}
 \begin{huge}
@@ -306,7 +306,7 @@
 		\par}
 	\end{center}
 	\begin{center}
-		
+
 		\textbf{\@lesoustitre}
 	\end{center}
 \noindent\rule{13cm}{0.5mm}
